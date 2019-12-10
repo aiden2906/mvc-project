@@ -199,7 +199,7 @@ body{
 .post .post-image{
     width: 100%;
 }
-.post .post-image a img{
+.post .post-image img{
     width: 300px;
     height: 200px;
 }

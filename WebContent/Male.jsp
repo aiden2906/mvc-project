@@ -41,7 +41,7 @@
    		<div class="wrap-list-product">
    		<p class="text">LIST PRODUCT</p>
    	
-   		<form>
+
    	<%
    		ProductDB lisDb= new ProductDB("Male");
 		List<Item> listitem= lisDb.show();
@@ -49,7 +49,7 @@
 			out.print("<form action=\"detailController\" >");
 			out.print("<div class=\"post\">");
 			out.print("<div class=\"post-image\">");
-			out.print("<a><img src=\""+it.getFileNameString() + "\" /></a>");
+			out.print("<img src=\""+it.getFileNameString() + "\" />");
 			out.print("</div>");
 			out.print("<div class=\"post-name\">");
 			out.print("<p>"+it.getNameString()+"</p>");
@@ -65,13 +65,10 @@
 			out.print("<input type=\"hidden\" name=\"txtname\" value='"+it.getNameString()+"' >");
 			out.print("<input type=\"hidden\" name=\"txtprice\" value='"+it.getPrice()+"' >");
 			out.print("</div>");
-			
-			
-			
 			out.print("</form>");
 		}
    	%>
-   		</form>
+
    		
    		</div>
    		<div class="clear"></div>
