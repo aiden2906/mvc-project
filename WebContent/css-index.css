@@ -1,0 +1,238 @@
+body{
+    box-sizing: border-box;
+}
+
+.header-top {
+    width: 1024px;
+    background: white;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-top .wrap {
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.cssmenu{
+    float: left;
+    width: 75%;
+
+}
+.clear{
+    clear: both;
+}
+.list-navigator{
+    list-style-type: none;
+    margin: 0 150px;
+    padding: 0 50px;
+}
+.list-navigator li{
+    float: left;
+    padding: 12px 6px;
+    list-style-type: none;
+    border: 2px solid black;
+    margin-left:2px ;
+    width: 18%;
+    text-align: center;
+}
+.list-navigator li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.list-navigator li:hover{
+    background: black;
+}
+.list-navigator li:hover a{
+    color: white;
+}
+.navigator{
+    width: 100%;
+    background: black;
+    margin-top: 30px;
+}
+.wrap-navigator{
+    width: 70%;
+}
+.list-fashion{
+    list-style-type: none;
+    margin-left: 200px;
+}
+.list-fashion li{
+    float: left;
+    padding: 15px 20px;
+}
+.list-fashion li a{
+    color: white;
+    text-decoration: none;
+}
+.list-fashion li:hover{
+    background: gray;
+}
+.list-fashion li:hover a{
+    color: black;
+}
+.content-list-product{
+    width: 85%;
+    margin: auto;
+}
+.wrap-list-product{
+    width: 80%;
+    margin: auto;
+}
+.wrap-list-product .text{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.anhsanpham{
+    width: 400px;
+    height: 300px;
+}
+.content-part{
+    width: 100%;
+}
+.wrap-content{
+    width: 60%;
+    margin: auto;
+}
+.images-part{
+    width:100%;
+    text-align: center;
+}
+.images-part img{
+    width: 912px;
+    height: 608px;
+    margin-top: 30px;
+}
+.name-part{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.name-part p{
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.decription{
+    width: 38%;
+    margin: auto;
+    text-align: center;
+}
+.price{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+}
+.price p{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.footer-middle{
+    width: 100%;
+    background: black;
+}
+.footer-middle .wrap{
+    width: 70%;
+    margin: auto;
+}
+.list-policy{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+.list-policy li{
+    list-style-type: none;
+    float: left;
+    width: 18%;
+    padding: 15px 20px ;
+    text-align: center;
+}
+.list-policy li a{
+    text-decoration: none;
+    color: white;
+}
+.list-policy li:hover{
+    background: gray;
+}
+.list-policy li:hover a{
+    color: black;
+}
+
+
+.footer-bottom{
+    width: 100%;
+    height: 300px;
+    background: gray;
+}
+.col-1{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.col-1 p{
+    font-size: 25px;
+}
+.col-1 ul{
+    padding: 0;
+    margin: 0;
+}
+.col-1 ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.post{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.post .post-image{
+    width: 100%;
+}
+.post .post-image a img{
+    width: 300px;
+    height: 200px;
+}
+.post .post-name{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background: lightblue;
+}
+.post .post-price{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background: gray;
+}
+.post .post-refer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+.post .post-refer input{
+    width: 100%;
+    height: 46px;
+    background: black;
+    color: white;
+}
+.post .post-refer input:hover{
+    background: gray;
+    color: black;
+}
+.padding{
+    width: 100%;
+    height: 500px;
+}
+
