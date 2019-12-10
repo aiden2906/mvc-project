@@ -42,7 +42,6 @@
    	<div class="wrap-list-product">
    		<p class="text">LIST PRODUCT</p>
    	
-   	<form>
    	<%
    		ProductDB lisDb= new ProductDB("Female");
 		List<Item> listitem= lisDb.show();
@@ -72,7 +71,6 @@
 			out.print("</form>");
 		}
    	%>
-   	</form>
    		
    	</div>
    	<div class="clear"></div>
